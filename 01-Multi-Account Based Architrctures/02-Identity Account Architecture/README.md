@@ -25,10 +25,11 @@ From this central AWS account, they can login to any other AWS accounts.
 
 ![My Image](images/image4.png)
 
-##Advantages and Disadvantages
+## Advantages and Disadvantages
 
 *Advantages:*
 - Simple setup with no extra costs. Fast to configure.
+
 *Disadvantages:*
 - Hard to manage when number of roles and AWS accounts increases.
 - AWS console access is required for Switch Role operations.
