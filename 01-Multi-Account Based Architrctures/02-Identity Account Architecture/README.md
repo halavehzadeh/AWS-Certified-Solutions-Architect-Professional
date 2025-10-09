@@ -33,3 +33,18 @@ From this central AWS account, they can login to any other AWS accounts.
 **Disadvantages:**
 - Hard to manage when number of roles and AWS accounts increases.
 - AWS console access is required for Switch Role operations.
+
+## Practical Workflow Steps
+
+- Create a user in Account A (Identity Account)
+- Create a Cross-Account IAM Role in the destination account with
+  appropriate trust and policies.
+- Allow User to switch to CrossAccountRole.
+
+## Reference Screenshot - STS Assume Role Policy
+
+![My Image](images/image5.png)
+
+## Point to Note
+
+You cannot switch to a role when you sign in as the AWS account root user.
