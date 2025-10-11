@@ -4,7 +4,9 @@
 
 IAM Policy defines permissions that a specific entity has in AWS.
 
-! [My Image](images/image1.png)
+<div align="center">
+<img src="images/image1.png" alt="IAM Policies" width="600">
+</div>
 
 ## IAM Policy Types
 
@@ -25,7 +27,7 @@ what actions an identity (users, groups of users, and roles) can perform, on
 which resources, and under what conditions
 
 <div align="center">
-<img src="images/image1.png" alt="IAM Policies" width="600">
+<img src="images/image2.png" alt="IAM Policies" width="600">
 </div>
 
 
@@ -36,7 +38,33 @@ resource such as an Amazon S3 bucket, KMS Keys etc.
 You can specify who has access to the resource and what actions they can
 perform on it.
 
+<div align="center">
+<img src="images/image3.png" alt="IAM Policies" width="600">
+</div>
+
+## Permission Boundaries
+
+A permissions boundary is an advanced feature in which you set the maximum
+permissions that an identity-based policy can grant to an IAM entity
 
 <div align="center">
-<img src="images/image2.png" alt="IAM Policies" width="600">
+<img src="images/image4.png" alt="IAM Policies" width="600">
+</div>
+
+## Service Control Policies
+
+SCPs are JSON policies that specify the maximum permissions that can be
+allowed at an account level (Organization or Organizational Unit)
+
+<div align="center">
+<img src="images/image5.png" alt="IAM Policies" width="600">
+</div>
+
+## Access Control Lists
+
+Access control lists (ACLs) are service policies that allow you to control which
+principals in another account can access a resource.
+
+<div align="center">
+<img src="images/image6.png" alt="IAM Policies" width="600">
 </div>
