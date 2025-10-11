@@ -37,4 +37,4 @@ You can specify who has access to the resource and what actions they can
 perform on it.
 
 
-! [My Image](images/image3.png)
+![My Image](images/image3.png)
