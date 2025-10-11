@@ -24,7 +24,9 @@ Identity-based policies are JSON permissions policy documents that control
 what actions an identity (users, groups of users, and roles) can perform, on
 which resources, and under what conditions
 
-<img src="images/image1.png" alt="IAM Policies" width="50%">
+<div align="center">
+<img src="images/image1.png" alt="IAM Policies" width="600">
+</div>
 
 
 ## Resource-based policies
